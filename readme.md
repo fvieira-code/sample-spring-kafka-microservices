@@ -15,6 +15,7 @@ Existem e (três) microserviços: \
 Aqui está o diagrama de nossa arquitetura:
 
 ![image](C:\projects\sample-spring-kafka-microservices-master\arch.png)
+![image](https://github.com/fvieira-code/sample-spring-kafka-microservices/master/arch.png)
 
 (1) `order-service` envia uma nova `Order` -> `status == NEW` \
 (2) `payment-service` e `stock-service` recebe `Order` e realiza uma transação local nos dados \
