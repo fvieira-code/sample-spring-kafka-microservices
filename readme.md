@@ -13,7 +13,8 @@ Existem e (três) microserviços: \
 `stock-service` - Executa as transações na loja com base no número de produtos no `Order`
 
 Aqui está o diagrama de nossa arquitetura:
-![image](https://github.com/fvieira-code/sample-spring-kafka-microservices/master/arch.png)
+
+![image](https://github.com/fvieira-code/sample-spring-kafka-microservices/blob/master/arch.png)
 
 (1) `order-service` envia uma nova `Order` -> `status == NEW` \
 (2) `payment-service` e `stock-service` recebe `Order` e realiza uma transação local nos dados \
